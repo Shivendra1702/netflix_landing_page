@@ -13,12 +13,23 @@ body {
 }
 
 .screen {
+  position: relative;
   height: 100%;
   width: 100%;
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/d4f217b2-4001-4df5-bef8-0b026ec133fe/IN-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 1px 1px 1000px 300px rgba(0, 0, 0, 0.537);
+  box-shadow: inset 0px 0px 120px 60px black;
+  z-index: 1;
+}
+
+.black {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 .nav {
@@ -53,6 +64,7 @@ svg {
   height: 40px;
   border-radius: 2px;
 }
+
 #b2 {
   background-color: #174389;
   color: white;
@@ -62,8 +74,9 @@ svg {
   border-radius: 2px;
 }
 
-#b2:hover{
-  background-color:#285091;
+#b2:hover {
+  background-color: #285091;
+  cursor: pointer;
 }
 
 .box {
@@ -77,25 +90,30 @@ svg {
   margin: auto;
   /* border: solid 2px red; */
 }
+
 h1 {
   font-size: 60px;
   color: white;
 }
-h2{
+
+h2 {
   color: white;
 
 }
+
 h3 {
   color: white;
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
 p {
   font-size: 20px;
 }
 
-h3,p{
+h3,
+p {
   font-weight: 400;
 }
 
@@ -123,6 +141,7 @@ h3,p{
   padding: 10px;
   font-size: 18px;
 }
+
 #b3 {
   background-color: #174389;
   height: 100%;
@@ -131,22 +150,45 @@ h3,p{
   border: none;
   font-size: 20px;
 }
-#b3:hover{
-  background-color:#285091;
+
+#b3:hover {
+  background-color: #285091;
+  cursor: pointer;
 }
 
-.watchOnTv{
-  display:flex;
-  flex-direction: column;
+.watchOnTv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 100vw;
   height: 60vh;
 }
 
-.watchOnTv h1{
-  padding-bottom:20px ;
+.watchOnTv h1 {
+  padding-bottom: 20px;
 }
 
-.watchOnTv-text{
+.watchOnTv-text {
   width: 50%;
-  padding: 150px 127px;
+  padding: 127px 127px;
+}
+
+.watchOnTv-container-of-video {
+  width: 200px;
+}
+
+.watchOnTv-container-of-video img {
+  width: 530px;
+  z-index: 1;
+}
+
+.watchOnTv-animation video {
+  width: 386px;
+  margin-top: 82px;
+  margin-left: -144px;
+}
+
+.watchOnTv-animation {
+  width: 500px;
+  z-index: -1;
 }
