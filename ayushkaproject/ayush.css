@@ -31,10 +31,11 @@ body {
   padding-top: 35px;
 }
 
-.logo,
 svg {
-  width: 150px;
-  height: 40px;
+  width: 170px;
+  height: 55px;
+  margin-top: -15px;
+  margin-left: -20px;
 }
 
 .buttons {
@@ -77,9 +78,15 @@ svg {
   /* border: solid 2px red; */
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
+  color: white;
+}
+h2{
+  color: white;
+
 }
 h3 {
+  color: white;
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -103,7 +110,7 @@ h3,p{
 
 .box .form {
   width: 100%;
-  height: 60px;
+  height: 70px;
   display: flex;
   border-radius: 6px;
   overflow: hidden;
@@ -126,4 +133,20 @@ h3,p{
 }
 #b3:hover{
   background-color:#285091;
+}
+
+.watchOnTv{
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 60vh;
+}
+
+.watchOnTv h1{
+  padding-bottom:20px ;
+}
+
+.watchOnTv-text{
+  width: 50%;
+  padding: 150px 127px;
 }
