@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: arial;
+  font-family: 'calibri';
+  font-weight: 500;
 }
 
 html,
@@ -12,10 +13,17 @@ body {
   background-color: black;
 }
 
+hr{
+ height: 8px;
+ background-color: gray;
+ border: 0;
+ opacity: 0.2;
+}
+
 .screen {
   position: relative;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background: url("https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/d4f217b2-4001-4df5-bef8-0b026ec133fe/IN-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   background-size: cover;
   box-shadow: inset 0px 0px 120px 60px black;
@@ -191,4 +199,72 @@ p {
 .watchOnTv-animation {
   width: 500px;
   z-index: -1;
+}
+
+.watchOnMobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 60vh;
+}
+
+.watchOnMobile-animation{
+margin-left: 130px;
+}
+.watchOnMobile-animation img {
+  position: relative;
+  width: 500px;
+  z-index: -1;
+}
+
+.watchOnMobile-Downloading {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 320px;
+  height: 100px;
+  margin-left: 90px;
+  margin-top: -142px;
+  z-index: 1;
+  background-color: black;
+  box-shadow: inset 0px 8px 20px 5px black;
+}
+
+.watchOnMobile-Downloading-text {
+  margin-top: 27px;
+}
+
+.watchOnMobile-Downloading-text p {
+  color: white;
+  font-size: 16px;
+}
+#Blue{
+  color: rgb(78, 78, 255);
+  font-size: 15px;
+}
+
+.watchOnMobile-Downloading-Stranger {
+  margin-top: 5px;
+}
+
+.watchOnMobile-Downloading-Stranger img {
+  width: 60px;
+}
+
+.watchOnMobile-Downloading-icon {
+  margin-top: 20px;
+}
+
+.watchOnMobile-Downloading-icon img {
+  width: 50px;
+}
+
+.watchOnMobile-Text{
+  margin-top: 100px;
+  margin-right: 166px;
+  margin-left: 98px;
 }
