@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'calibri';
   font-weight: 500;
+  scroll-behavior:smooth;
 }
 
 html,
@@ -100,7 +101,7 @@ svg {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
   color: white;
 }
 
@@ -111,7 +112,7 @@ h2 {
 
 h3 {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -267,4 +268,30 @@ margin-left: 130px;
   margin-top: 100px;
   margin-right: 166px;
   margin-left: 98px;
+}
+
+.watchOnDevice{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100vw;
+  /* height:50vh; */
+
+}
+
+.watchOnDevice-text{
+  padding-top: 170px;
+  width: 500px;
+}
+
+.watchOnDevice-animation{
+  width: 686px;
+  height: 686px;
+
+}
+
+.watchOnDevice-animation img{
+  width: 550px;
+  position: relative;
+  top: 100px;
 }
