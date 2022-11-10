@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: 'calibri';
   font-weight: 500;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -14,11 +14,11 @@ body {
   background-color: black;
 }
 
-hr{
- height: 8px;
- background-color: gray;
- border: 0;
- opacity: 0.2;
+hr {
+  height: 8px;
+  background-color: gray;
+  border: 0;
+  opacity: 0.2;
 }
 
 .screen {
@@ -210,9 +210,10 @@ p {
   height: 60vh;
 }
 
-.watchOnMobile-animation{
-margin-left: 130px;
+.watchOnMobile-animation {
+  margin-left: 130px;
 }
+
 .watchOnMobile-animation img {
   position: relative;
   width: 500px;
@@ -243,7 +244,8 @@ margin-left: 130px;
   color: white;
   font-size: 16px;
 }
-#Blue{
+
+#Blue {
   color: rgb(78, 78, 255);
   font-size: 15px;
 }
@@ -264,33 +266,33 @@ margin-left: 130px;
   width: 50px;
 }
 
-.watchOnMobile-Text{
+.watchOnMobile-Text {
   margin-top: 100px;
   margin-right: 166px;
   margin-left: 98px;
 }
 
-.watchOnDevice{
+.watchOnDevice {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 100vw;
   /* height:50vh; */
 
 }
 
-.watchOnDevice-text{
+.watchOnDevice-text {
   padding-top: 170px;
   width: 500px;
 }
 
-.watchOnDevice-animation{
+.watchOnDevice-animation {
   width: 686px;
   height: 686px;
 
 }
 
-.watchOnDevice-animation img{
+.watchOnDevice-animation img {
   width: 550px;
   position: relative;
   top: 100px;
