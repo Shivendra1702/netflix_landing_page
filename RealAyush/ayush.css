@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'calibri';
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+hr {
+  height: 8px;
+  background-color: gray;
+  border: 0;
+  opacity: 0.2;
+}
+
+.screen {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/f669a8f4-de1e-49d7-bb56-c9bd1f4a9069/d4f217b2-4001-4df5-bef8-0b026ec133fe/IN-en-20221031-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 0px 120px 60px black;
+  z-index: 1;
+}
+
+.black {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.nav {
+  margin: auto;
+  height: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 35px;
+}
+
+svg {
+  width: 170px;
+  height: 55px;
+  margin-top: -15px;
+  margin-left: -20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+#b1 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+#b2 {
+  background-color: #174389;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+#b2:hover {
+  background-color: #285091;
+  cursor: pointer;
+}
+
+.box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 55%;
+  position: relative;
+  top: 180px;
+  margin: auto;
+  /* border: solid 2px red; */
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+h2 {
+  color: white;
+
+}
+
+h3 {
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3,
+p {
+  font-weight: 400;
+}
+
+.box .text {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 20px;
+}
+
+.box .form {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.form input {
+  height: 100%;
+  width: 70%;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#b3 {
+  background-color: #174389;
+  height: 100%;
+  width: 30%;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+#b3:hover {
+  background-color: #285091;
+  cursor: pointer;
+}
+
+.watchOnTv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 60vh;
+}
+
+.watchOnTv h1 {
+  padding-bottom: 20px;
+}
+
+.watchOnTv-text {
+  width: 50%;
+  padding: 127px 127px;
+}
+
+.watchOnTv-container-of-video {
+  width: 200px;
+}
+
+.watchOnTv-container-of-video img {
+  width: 530px;
+  z-index: 1;
+}
+
+.watchOnTv-animation video {
+  width: 386px;
+  margin-top: 82px;
+  margin-left: -144px;
+}
+
+.watchOnTv-animation {
+  width: 500px;
+  z-index: -1;
+}
+
+.watchOnMobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 60vh;
+}
+
+.watchOnMobile-animation {
+  margin-left: 130px;
+}
+
+.watchOnMobile-animation img {
+  position: relative;
+  width: 500px;
+  z-index: -1;
+}
+
+.watchOnMobile-Downloading {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 320px;
+  height: 100px;
+  margin-left: 90px;
+  margin-top: -142px;
+  z-index: 1;
+  background-color: black;
+  box-shadow: inset 0px 8px 20px 5px black;
+}
+
+.watchOnMobile-Downloading-text {
+  margin-top: 27px;
+}
+
+.watchOnMobile-Downloading-text p {
+  color: white;
+  font-size: 16px;
+}
+
+#Blue {
+  color: rgb(78, 78, 255);
+  font-size: 15px;
+}
+
+.watchOnMobile-Downloading-Stranger {
+  margin-top: 5px;
+}
+
+.watchOnMobile-Downloading-Stranger img {
+  width: 60px;
+}
+
+.watchOnMobile-Downloading-icon {
+  margin-top: 20px;
+}
+
+.watchOnMobile-Downloading-icon img {
+  width: 50px;
+}
+
+.watchOnMobile-Text {
+  margin-top: 100px;
+  margin-right: 166px;
+  margin-left: 98px;
+}
+
+.watchOnDevice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  /* height:50vh; */
+
+}
+
+.watchOnDevice-text {
+  padding-top: 170px;
+  width: 500px;
+}
+
+.watchOnDevice-animation {
+  width: 686px;
+  height: 686px;
+
+}
+
+.watchOnDevice-animation img {
+  width: 550px;
+  position: relative;
+  top: 100px;
+}
