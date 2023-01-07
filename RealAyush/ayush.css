@@ -275,15 +275,14 @@ p {
 .watchOnDevice {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: 100vw;
-  /* height:50vh; */
-
+  height: 70%;
 }
 
 .watchOnDevice-text {
   padding-top: 170px;
-  width: 500px;
+  width: 600px;
 }
 
 .watchOnDevice-animation {
@@ -296,4 +295,32 @@ p {
   width: 550px;
   position: relative;
   top: 100px;
+}
+
+.watchOnDevice-animation video {
+  width: 350px;
+  position: relative;
+  top: -275px;
+  left: 103px;
+  z-index: -1;
+}
+
+.story-cardcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+}
+
+.story-card-textcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 170px;
+}
+
+.story-card-imgcontainer img {
+  width: 500px;
+  margin-left: 200px;
 }
